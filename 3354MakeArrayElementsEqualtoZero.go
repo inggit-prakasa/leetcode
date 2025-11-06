@@ -1,11 +1,9 @@
 package main
 
-import "fmt"
-
-func main() {
-	req := []int{16, 13, 10, 0, 0, 0, 10, 6, 7, 8, 7}
-	fmt.Println(countValidSelections(req))
-}
+// func main() {
+// 	req := []int{16, 13, 10, 0, 0, 0, 10, 6, 7, 8, 7}
+// 	fmt.Println(countValidSelections(req))
+// }
 
 func countValidSelectionsOLD(nums []int) int {
 	validSelection := 0

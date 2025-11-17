@@ -5,9 +5,9 @@ import (
 	"fmt"
 )
 
-func main() {
-	fmt.Println(processQueries(5, [][]int{{1, 2}, {2, 3}, {3, 4}, {4, 5}}, [][]int{{1, 3}, {2, 1}, {1, 1}, {2, 2}, {1, 2}})) // Example usage
-}
+// func main() {
+// 	fmt.Println(processQueries(5, [][]int{{1, 2}, {2, 3}, {3, 4}, {4, 5}}, [][]int{{1, 3}, {2, 1}, {1, 1}, {2, 2}, {1, 2}})) // Example usage
+// }
 
 type DSU struct {
 	parent, rank []int
